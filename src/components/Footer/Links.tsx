@@ -2,7 +2,7 @@ import React from 'react'
 
 const Links: React.FC = () => {
     return (
-        <div className='mx-5 sm:mx-12 md:mx-20 lg:mx-36 grid grid-cols-1 sm:grid-cols-3'>
+        <div className='mx-5 sm:mx-12 md:mx-20 lg:mx-36 grid grid-cols-1 sm:grid-cols-3 gap-8'>
             <div className="flex justify-center">
                 <div>       
                     <div className='text-4xl font-anton font-bold mb-8'>
