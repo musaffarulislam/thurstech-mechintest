@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FaCirclePlus } from "react-icons/fa6";
 
-const LeftOverview = () => {
+const LeftOverview: React.FC = () => {
     const [overView, setOverView] = useState<boolean>(false)
     const [features, setFeatures] = useState<boolean>(false)
     const [video, setVideo] = useState<boolean>(false)

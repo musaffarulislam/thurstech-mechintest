@@ -4,7 +4,7 @@ import { HiMapPin } from "react-icons/hi2";
 import { IoMdCall } from "react-icons/io"; 
 import { IoShareSocialOutline } from "react-icons/io5";
 
-const Card = () => {
+const Card: React.FC = () => {
   return (
     <div className='my-8 w-full grid grid-cols-1 sm:grid-cols-12 bg-secondary border-2 border-primary rounded-lg p-8 drop-shadow-[10px_10px_0_rgba(0,0,0,1)]'>
         <div className='sm:col-span-10'>

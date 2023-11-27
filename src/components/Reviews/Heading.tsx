@@ -2,7 +2,7 @@ import React from 'react'
 import { FaStar } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
 
-const Heading = () => {
+const Heading: React.FC = () => {
     const stars = Array(5).fill(null);
     return (
         <div className='flex justify-between'>

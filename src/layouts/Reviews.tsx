@@ -3,7 +3,7 @@ import Heading from '../components/Reviews/Heading'
 import Content from '../components/Reviews/Content'
 import Pagination from '../components/Reviews/Pagination'
 
-const Reviews = () => {
+const Reviews: React.FC = () => {
   return (
     <div className='mx-5 sm:mx-12 md:mx-20 lg:mx-36 my-16'>
         <Heading />

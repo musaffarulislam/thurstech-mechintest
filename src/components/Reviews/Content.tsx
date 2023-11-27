@@ -1,7 +1,7 @@
 import React from 'react'
 import Details from './Details'
 
-const Content = () => {
+const Content: React.FC = () => {
   return (
     <div>
       <div className="w-full border-t border-gray-500 my-4"></div>

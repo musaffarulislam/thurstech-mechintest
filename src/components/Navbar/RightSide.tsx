@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaArrowRightLong } from "react-icons/fa6";
 
-const RightSide = () => {
+const RightSide: React.FC = () => {
   return (
     <div className='flex gap-2 sm:gap-4 items-center'>
         <div className='cursor-pointer hover:opacity-80'>

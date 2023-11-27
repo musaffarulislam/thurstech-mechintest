@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ImageLayout = () => {
+const ImageLayout: React.FC = () => {
   return (
     <div className='h-full grid grid-cols-4 md:grid-cols-2 gap-2 md:gap-4'>
         <div>

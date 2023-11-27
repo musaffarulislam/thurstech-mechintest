@@ -2,7 +2,7 @@ import React from 'react'
 import MainImage from './MainImage'
 import ImageLayout from './ImageLayout'
 
-const BannerImages = () => {
+const BannerImages: React.FC = () => {
   return (
     <div className='grid grid-cols-12 gap-4'>
         <div className='col-span-12 md:col-span-7'>

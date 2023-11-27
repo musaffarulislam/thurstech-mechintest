@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LeftSide = () => {
+const LeftSide: React.FC = () => {
   return (
     <div className='flex gap-2 sm:gap-6 md:gap-10 '>
         <div className='cursor-pointer hover:opacity-80'>

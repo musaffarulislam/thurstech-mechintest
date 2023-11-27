@@ -52,11 +52,11 @@ const Card: React.FC<CardProps> = ({ popular, heading, rating, date, title, pric
                 <div className='mt-4 font-semibold'>
                     <div className='flex items-center gap-1'>
                         <HiMapPin />
-                        Texes, United States
+                        {location}
                     </div>
                     <div className='flex items-center gap-1 mt-2'>
                         <IoMdCall />
-                        +91 9562 886 328
+                        {phone}
                     </div>
                 </div>
             </div>
